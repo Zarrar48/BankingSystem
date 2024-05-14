@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BankingSystem.application/1.0.0": {
+        "dependencies": {
+          "BankingSystem.domian": "1.0.0"
+        },
+        "runtime": {
+          "BankingSystem.application.dll": {}
+        }
+      },
+      "BankingSystem.domian/1.0.0": {
+        "runtime": {
+          "BankingSystem.domian.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankingSystem.application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankingSystem.domian/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

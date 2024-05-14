@@ -1,0 +1,17 @@
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.infrastructure.deps.json
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.infrastructure.dll
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.infrastructure.pdb
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.application.dll
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.domian.dll
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.application.pdb
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\bin\Debug\net7.0\BankingSystem.domian.pdb
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.csproj.AssemblyReference.cache
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.AssemblyInfoInputs.cache
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.AssemblyInfo.cs
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.csproj.CopyComplete
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.dll
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\refint\BankingSystem.infrastructure.dll
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\BankingSystem.infrastructure.pdb
+C:\Users\MULTI\BankingSystem\BankingSystem.infrastructure\obj\Debug\net7.0\ref\BankingSystem.infrastructure.dll
