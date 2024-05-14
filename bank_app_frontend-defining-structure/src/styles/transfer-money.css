@@ -1,0 +1,19 @@
+.tm-body-wrapper{
+    @apply  w-full  h-full grid grid-cols-2 gap-1
+}
+
+.single-column {
+    @apply col-span-1 flex flex-col justify-center ;
+  }
+  
+.card {
+    @apply  bg-gray-800  min-h-96
+}
+
+.account-balance {
+    @apply opacity-50 italic
+}
+
+.flex-line{
+   @apply flex w-full max-w-sm items-center space-x-2
+}

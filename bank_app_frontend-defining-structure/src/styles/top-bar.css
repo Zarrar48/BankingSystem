@@ -1,0 +1,3 @@
+.top-bar-wrapper{
+    @apply row-span-1 w-full  bg-gray-800 flex items-end justify-end h-full w-full;
+}

@@ -1,0 +1,17 @@
+.home-body-wrapper {
+  @apply flex items-center justify-center h-full w-full;
+}
+.option-tag {
+  @apply inline-block relative w-72 min-h-72 rounded-md grid grid-rows-5 m-1 cursor-pointer overflow-hidden;
+}
+
+.tag-icon {
+  @apply absolute inset-0 opacity-50 z-0 flex items-center justify-center;
+}
+
+.tag-small-text {
+  @apply row-span-2 text-4xl font-bold text-center;
+}
+.tag-big-text {
+  @apply row-span-3 text-6xl font-bold text-center;
+}

@@ -1,0 +1,7 @@
+.profile-body-wrapper {
+    @apply flex items-center justify-center h-full w-full;
+  }
+
+  .card {
+    @apply min-h-96 min-w-72
+}

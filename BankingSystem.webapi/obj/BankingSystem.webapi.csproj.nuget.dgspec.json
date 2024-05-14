@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj": {}
+    "E:\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj": {
+    "E:\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj",
+        "projectUniqueName": "E:\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj",
         "projectName": "BankingSystem.application",
-        "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj",
+        "projectPath": "E:\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj",
         "packagesPath": "C:\\Users\\MULTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\obj\\",
+        "outputPath": "E:\\BankingSystem\\BankingSystem.application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj": {
-                "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj"
+              "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj": {
+                "projectPath": "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj"
+              },
+              "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj": {
+                "projectPath": "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj"
               }
             }
           }
@@ -49,6 +52,34 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj": {
+    "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj",
+        "projectUniqueName": "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj",
         "projectName": "BankingSystem.domian",
-        "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj",
+        "projectPath": "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj",
         "packagesPath": "C:\\Users\\MULTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.domain\\obj\\",
+        "outputPath": "E:\\BankingSystem\\BankingSystem.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -110,6 +141,34 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -130,14 +189,14 @@
         }
       }
     },
-    "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj": {
+    "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj",
+        "projectUniqueName": "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj",
         "projectName": "BankingSystem.infrastructure",
-        "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj",
+        "projectPath": "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj",
         "packagesPath": "C:\\Users\\MULTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\obj\\",
+        "outputPath": "E:\\BankingSystem\\BankingSystem.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -160,8 +219,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj": {
-                "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj"
+              "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj": {
+                "projectPath": "E:\\BankingSystem\\BankingSystem.domain\\BankingSystem.domian.csproj"
               }
             }
           }
@@ -176,6 +235,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -183,6 +250,16 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -205,14 +282,14 @@
         }
       }
     },
-    "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj": {
+    "E:\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj",
+        "projectUniqueName": "E:\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj",
         "projectName": "BankingSystem.webapi",
-        "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj",
+        "projectPath": "E:\\BankingSystem\\BankingSystem.webapi\\BankingSystem.webapi.csproj",
         "packagesPath": "C:\\Users\\MULTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.webapi\\obj\\",
+        "outputPath": "E:\\BankingSystem\\BankingSystem.webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -236,11 +313,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj": {
-                "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj"
+              "E:\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj": {
+                "projectPath": "E:\\BankingSystem\\BankingSystem.application\\BankingSystem.application.csproj"
               },
-              "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj": {
-                "projectPath": "C:\\Users\\MULTI\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj"
+              "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj": {
+                "projectPath": "E:\\BankingSystem\\BankingSystem.infrastructure\\BankingSystem.infrastructure.csproj"
               }
             }
           }
@@ -255,13 +332,39 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.2, )"
             }
           },
           "imports": [

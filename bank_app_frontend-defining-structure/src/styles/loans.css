@@ -1,0 +1,25 @@
+.loans-body-wrapper {
+    @apply grid grid-cols-12 grid-rows-12 gap-1 w-full h-full overflow-hidden min-h-full;
+  }
+  
+  .loan-card {
+    @apply bg-gray-800 min-h-28;
+    grid-row-start: 4;
+    grid-row-end: span 8;
+    grid-column-start: 9;
+    grid-column-end: 12;
+  }
+
+  .prev-loan-card{
+    grid-row-start: 6;
+    grid-row-end: span 6;
+    grid-column-start: 2;
+    grid-column-end: 8;
+  }
+
+  .due-loan-card{
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: 8;
+  }
